@@ -1,4 +1,5 @@
 Summary:	Click Modular Router Packages
+Summary(pl):	Pakiety do modularnego routera Click
 Name:		click-packages
 Version:	1.4
 Release:	0.1
@@ -48,7 +49,8 @@ routera tworzy siê przez sklejanie elementów w prostym jêzyku.
 %build
 for dir in %{subdirs}; do
 	cd $dir
-%configure --with-click=%{_prefix}
+%configure \
+	--with-click=%{_prefix}
 
 	%{__make}
 	cd -
@@ -59,9 +61,8 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_sbindir},%{_mandir}/man8,/bin}
 
 for dir in %{subdirs}; do
-	cd $dir
-	%{__make} install DESTDIR=$RPM_BUILD_ROOT
-	cd -
+	%{__make} -C $dir install \
+		DESTDIR=$RPM_BUILD_ROOT
 done
 
 #echo ".so tracepath.8" > $RPM_BUILD_ROOT%{_mandir}/man8/tracepath6.8
