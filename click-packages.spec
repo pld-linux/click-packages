@@ -9,8 +9,8 @@ Source0:	http://amsterdam.lcs.mit.edu/click/%{name}-%{version}.tar.gz
 # Source0-md5:	8e2779fedb806bffb13d565f59c3ba76
 Patch0:		%{name}-DESTDIR.patch
 URL:		http://amsterdam.lcs.mit.edu/click/
-BuildRequires:	libstdc++-devel
 BuildRequires:	click-devel
+BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -67,7 +67,7 @@ done
 
 #echo ".so tracepath.8" > $RPM_BUILD_ROOT%{_mandir}/man8/tracepath6.8
 
-rm $RPM_BUILD_ROOT/%{_mandir}/mann/elements.n*
+rm $RPM_BUILD_ROOT%{_mandir}/mann/elements.n*
 
 %clean
 rm -rf $RPM_BUILD_ROOT
