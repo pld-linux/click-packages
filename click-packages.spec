@@ -5,10 +5,11 @@ Version:	1.4
 Release:	0.1
 License:	MIT
 Group:		Networking/Admin
-Source0:	http://amsterdam.lcs.mit.edu/click/%{name}-%{version}.tar.gz
+#Source0Download: http://www.read.cs.ucla.edu/click/download
+Source0:	http://www.read.cs.ucla.edu/click/%{name}-%{version}.tar.gz
 # Source0-md5:	8e2779fedb806bffb13d565f59c3ba76
 Patch0:		%{name}-DESTDIR.patch
-URL:		http://amsterdam.lcs.mit.edu/click/
+URL:		http://www.read.cs.ucla.edu/click/
 BuildRequires:	click-devel
 BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
