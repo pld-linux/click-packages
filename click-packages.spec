@@ -75,6 +75,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_mandir}/man*/*
-%{_datadir}/click/elementmap*.xml
 %attr(755,root,root) %{_libdir}/*.uo
+%{_datadir}/click/elementmap*.xml
+%{_mandir}/man*/*
