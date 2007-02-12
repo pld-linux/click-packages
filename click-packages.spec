@@ -1,5 +1,5 @@
 Summary:	Click Modular Router Packages
-Summary(pl.UTF-8):   Pakiety do modularnego routera Click
+Summary(pl.UTF-8):	Pakiety do modularnego routera Click
 Name:		click-packages
 Version:	1.4
 Release:	0.1
