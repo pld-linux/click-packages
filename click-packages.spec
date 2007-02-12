@@ -1,5 +1,5 @@
 Summary:	Click Modular Router Packages
-Summary(pl):	Pakiety do modularnego routera Click
+Summary(pl.UTF-8):   Pakiety do modularnego routera Click
 Name:		click-packages
 Version:	1.4
 Release:	0.1
@@ -28,18 +28,18 @@ surprisingly powerful behavior, and it's easy to write new ones in
 C++. You write a router configuration by gluing elements together with
 a simple language.
 
-%description -l pl
-Click to modularny router rozwijany przez grupê MIT LCS Parallel and
+%description -l pl.UTF-8
+Click to modularny router rozwijany przez grupÄ™ MIT LCS Parallel and
 Distributed Operating Systems, Mazu Networks, ICSI Center for Internet
-Research, a obecnie UCLA. Routery Click s± elastyczne, konfigurowalne
-i ³atwe do zrozumienia.
+Research, a obecnie UCLA. Routery Click sÄ… elastyczne, konfigurowalne
+i Å‚atwe do zrozumienia.
 
-Router Click to po³±czony zestaw modu³ów nazywanych elementami;
-elementy kontroluj± ka¿dy aspekt zachowania routerów, od komunikacji z
-urz±dzeniami do modyfikowania pakietów, kolejkowania, polityki
-porzucania oraz schedulingu pakietów. Poszczególne elementy mog± mieæ
-zaskakuj±co potê¿ne zachowanie i ³atwo pisaæ nowe w C++. Konfiguracj±
-routera tworzy siê przez sklejanie elementów w prostym jêzyku.
+Router Click to poÅ‚Ä…czony zestaw moduÅ‚Ã³w nazywanych elementami;
+elementy kontrolujÄ… kaÅ¼dy aspekt zachowania routerÃ³w, od komunikacji z
+urzÄ…dzeniami do modyfikowania pakietÃ³w, kolejkowania, polityki
+porzucania oraz schedulingu pakietÃ³w. PoszczegÃ³lne elementy mogÄ… mieÄ‡
+zaskakujÄ…co potÄ™Å¼ne zachowanie i Å‚atwo pisaÄ‡ nowe w C++. KonfiguracjÄ…
+routera tworzy siÄ™ przez sklejanie elementÃ³w w prostym jÄ™zyku.
 
 %prep
 %setup -q
